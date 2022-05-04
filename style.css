@@ -290,4 +290,14 @@ th {
     width: 90%;
     margin: 10px auto;
   }
+
+  /* Contatos ======== */
+  form {
+    margin: 40px 10px;
+  }
+
+  /* Table ============= */
+  table {
+    margin: 20px 0 40px 10px;
+  }
 }
