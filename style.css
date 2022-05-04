@@ -21,6 +21,7 @@ nav {
 
 nav li {
   display: inline;
+  margin: 0 0 0 10px;
 }
 
 nav a {
@@ -91,9 +92,6 @@ footer {
   color: #ffffff;
   font-size: 13px;
   margin: 20px 0 0;
-}
-
-main {
 }
 
 form {
@@ -257,6 +255,10 @@ th {
     width: auto;
   }
 
+  .produtos {
+    width: 100%;
+  }
+
   h1 {
     text-align: center;
   }
@@ -265,10 +267,6 @@ th {
     position: static;
     width: 80%;
     margin: 0px auto;
-  }
-
-  nav li {
-    margin: 0 0 0 10px;
   }
 
   .principal p {
@@ -283,5 +281,13 @@ th {
 
   .itens {
     padding: 0px 0px 0px 15px;
+  }
+
+  /* Podutos =========== */
+
+  .produtos li {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
   }
 }
